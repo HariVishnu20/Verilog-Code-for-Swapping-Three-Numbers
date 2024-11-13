@@ -30,7 +30,7 @@ Save and Document Results:
 Capture the waveform output and include the results in your report for verification.
 
 ## Verilog Code:
-
+```
 module swap_three_numbers(
 input [7:0] a, b, c,   
 output reg [7:0] a_out, b_out, c_out 
@@ -72,7 +72,7 @@ module tb_swap_three_numbers;
     end
 
 endmodule
-
+```
 ## output
 
 ![swap](https://github.com/user-attachments/assets/42e7ed56-f4d4-4687-906d-95f23dd75171)
